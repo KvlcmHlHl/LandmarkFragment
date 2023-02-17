@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://repo.finansbank.com.tr:443/artifactory/libs-ibtech'
+        }
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url 'https://repo.finansbank.com.tr:443/artifactory/libs-ibtech'
+        }
+    }
+}
+
+rootProject.name = "LandamarkFragment"
+include ':app'
